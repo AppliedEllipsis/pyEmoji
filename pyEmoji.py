@@ -20,10 +20,9 @@ import unicodedata2 # install with pip, using this as it has an updated db
 UNICODE_VERSION = 6
 
 # Parts taken from: https://gist.github.com/shello/efa2655e8a7bce52f273
-# can use json from https://github.com/iamcal/emoji-data in future, instead of ranges
-# Sauce: http://www.unicode.org/charts/PDF/U1F300.pdf
+# can possibly use json from https://github.com/iamcal/emoji-data in future, instead of ranges
 EMOJI_RANGES_UNICODE = {
-    6: [
+    6: [ # http://www.unicode.org/charts/PDF/Unicode-6.0/U60-1F300.pdf
         (0x0001F300, 0x0001F320),
         (0x0001F330, 0x0001F335),
         (0x0001F337, 0x0001F37C),
@@ -38,9 +37,9 @@ EMOJI_RANGES_UNICODE = {
         (0x0001F500, 0x0001F53C),
         (0x0001F540, 0x0001F543),
         (0x0001F550, 0x0001F567),
-        (0x0001F5FB, 0x0001F5FF)
+        (0x0001F5FB, 0x0001F5FF),
     ],
-    7: [
+    7: [ # http://www.unicode.org/charts/PDF/Unicode-7.0/U70-1F300.pdf
         (0x0001F300, 0x0001F32C),
         (0x0001F330, 0x0001F37D),
         (0x0001F380, 0x0001F3CE),
@@ -49,12 +48,15 @@ EMOJI_RANGES_UNICODE = {
         (0x0001F500, 0x0001F54A),
         (0x0001F550, 0x0001F579),
         (0x0001F57B, 0x0001F5A3),
-        (0x0001F5A5, 0x0001F5FF)
+        (0x0001F5A5, 0x0001F5FF),
     ],
-    8: [
+    8: [ # http://www.unicode.org/charts/PDF/Unicode-8.0/U80-1F300.pdf
         (0x0001F300, 0x0001F579),
         (0x0001F57B, 0x0001F5A3),
-        (0x0001F5A5, 0x0001F5FF)
+        (0x0001F5A5, 0x0001F5FF),
+    ],
+    9: [ # http://www.unicode.org/charts/PDF/Unicode-9.0/U90-1F300.pdf
+        (0x0001F300, 0x0001F5FF),
     ]
 }
 
