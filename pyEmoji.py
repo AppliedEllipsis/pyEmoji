@@ -3,8 +3,8 @@
 
 module_info = {
 'NAME': "pyEmoji",
-'ORIGINAL_ARTHOR': "Applied Ellippsis", # leave this
-'ARTHOR': "Applied Ellipsis", # change this to you
+'ORIGINAL_AUTHOR': "Applied Ellippsis", # leave this
+'AUTHOR': "Applied Ellipsis", # change this to you
 'DESCRIPTION': '''
 Generates a random emoji for python2 and python3.
 ''',
